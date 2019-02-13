@@ -1,12 +1,11 @@
 # TechnologyAssessment
 Restful Web Service for Technology Assessment - Back End
+The UML Class diagram can be found in /TechnologicalAssessmentUML
 
 ## Getting Started
-
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
 Necessary software to run the application as well as 
 
 ```
@@ -15,7 +14,6 @@ Sonar (https://www.sonarqube.org/)
 ```
 
 ### Installing
-
 To be able to run the application please begin by installing Maven:
 
 ```
@@ -94,7 +92,6 @@ Which will give a response like this:
 ```
 
 ## Running the tests
-
 To run the unit tests for the application enter the following command at the root of the project
 
 ```
@@ -102,7 +99,6 @@ mvn test
 ```
 
 ## Deployment
-
 The application can be deployed to a TomCat server by copying the WAR file from target/TechnologyAssessment-0.0.1-SNAPSHOT.war to the tomcat/webapps/ folder, and then running:
 
 ```
@@ -111,12 +107,11 @@ catalina.sh (on Unix-based systems)
 ```
 
 ## Built With
-
 * [SpringBoot](http://start.spring.io) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency management
 * [EvoSuite](http://www.evosuite.org) - Automated unit test generation and code coverage
 * [SonarQube](https://www.sonarqube.org/) - Static code analysis tool
+* [StarUML](http://staruml.io/) - Online and desktop based CASE tool
 
 ## Authors
-
 * **Saud Al Awadhi** - (https://github.com/salawadhi)
