@@ -25,7 +25,7 @@ To build the application quickly without re-compiling test classes, run the mave
 mvn clean install -DskipTests
 ```
 
-If you wish to run the application from the command line after installing maven enter the following in a command prompt while in the project folder:
+If you wish to run the application from the command line after installing maven enter the following in a command prompt while in the project folder, this will run the application on localhost:8080:
 
 ```
 mvn spring-boot:run
