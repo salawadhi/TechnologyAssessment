@@ -19,6 +19,11 @@ To be able to run the application please begin by installing Maven:
 ```
 Install Maven (https://maven.apache.org/install.html)
 ```
+To build the application quickly without re-compiling test classes, run the maven script:
+
+```
+mvn clean install -DskipTests
+```
 
 If you wish to run the application from the command line after installing maven enter the following in a command prompt while in the project folder:
 
@@ -32,13 +37,13 @@ To be able to generate reports from SonarQube please:
 Install SonarQube("https://docs.sonarqube.org/latest/setup/get-started-2-minutes/")
 ```
 
-By following the instructions on the SonarQube local URL, you will be able to generate a report by uploading the project
+After installing SonarQube you can view pre-generated reports from the project folder by running the command:
 
 ```
-http://localhost:9000
+mvn sonar:sonar -Dsonar.analysis.mode=preview -Dsonar.issuesReport.html.enable=true
 ```
 
-Or you can view pre-generated reports from the project repository
+If there are any issues with the above command, going to localhost:9000 after starting the SonarQube StartSonar.bat file and following the directions to add a project will generate a new report.
 
 After running the program from the command line go to localhost:8080/api/get-discounted-receipt using any REST client you prefer, such as Postman.
 
