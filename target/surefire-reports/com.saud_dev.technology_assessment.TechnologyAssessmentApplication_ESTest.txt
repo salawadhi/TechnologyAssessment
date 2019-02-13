@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.541 s - in com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 74.156 s <<< FAILURE! - in com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest
+test3(com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest)  Time elapsed: 1.4 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest.test3(TechnologyAssessmentApplication_ESTest.java:87)
+
+test2(com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest)  Time elapsed: 0.916 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest.test2(TechnologyAssessmentApplication_ESTest.java:66)
+
+test1(com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest)  Time elapsed: 1.028 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest.test1(TechnologyAssessmentApplication_ESTest.java:46)
+
+test0(com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest)  Time elapsed: 0.904 s  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+	at com.saud_dev.technology_assessment.TechnologyAssessmentApplication_ESTest.test0(TechnologyAssessmentApplication_ESTest.java:26)
+
