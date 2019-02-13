@@ -1,5 +1,5 @@
 # TechnologyAssessment
-Restful Web Service for Technology Assessment - Back End
+Restful Web Service for Technology Assessment - Back End.
 The UML Class diagram can be found in /TechnologicalAssessmentUML
 
 ## Getting Started
