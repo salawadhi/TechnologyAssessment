@@ -1,0 +1,16 @@
+com\saud_dev\technology_assessment\rest\TechnologyAssessmentRestController.class
+com\saud_dev\technology_assessment\ServletInitializer.class
+com\saud_dev\technology_assessment\model\customer\Customer.class
+com\saud_dev\technology_assessment\model\customer\CustomerFactory.class
+com\saud_dev\technology_assessment\model\receipt\Receipt.class
+com\saud_dev\technology_assessment\TechnologyAssessmentApplication.class
+com\saud_dev\technology_assessment\model\item\Item.class
+com\saud_dev\technology_assessment\model\customer\Employee.class
+com\saud_dev\technology_assessment\model\customer\Affiliate.class
+com\saud_dev\technology_assessment\validators\ItemValidator.class
+com\saud_dev\technology_assessment\validators\CustomerValidator.class
+com\saud_dev\technology_assessment\validators\ReceiptValidator.class
+com\saud_dev\technology_assessment\constants\Constants.class
+com\saud_dev\technology_assessment\helper\RestExceptionHandler.class
+com\saud_dev\technology_assessment\model\response\DiscountResponse.class
+com\saud_dev\technology_assessment\service\TechnologyAssessmentService.class

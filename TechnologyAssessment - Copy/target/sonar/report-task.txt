@@ -1,0 +1,6 @@
+projectKey=TechnologyAssignmentUpdate
+serverUrl=http://localhost:9000
+serverVersion=7.6.0.21501
+dashboardUrl=http://localhost:9000/dashboard?id=TechnologyAssignmentUpdate
+ceTaskId=AWjlBUalNq54gPx6-FsS
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWjlBUalNq54gPx6-FsS
