@@ -43,6 +43,12 @@ After installing SonarQube you can view pre-generated reports from the project f
 mvn sonar:sonar -Dsonar.analysis.mode=preview -Dsonar.issuesReport.html.enable=true
 ```
 
+Or viewing the file:
+
+```
+SonarQubeReport.html
+```
+
 If there are any issues with the above command, going to localhost:9000 after starting the SonarQube StartSonar.bat file and following the directions to add a project will generate a new report.
 
 After running the program from the command line go to localhost:8080/api/get-discounted-receipt using any REST client you prefer, such as Postman.
