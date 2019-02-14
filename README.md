@@ -1,5 +1,5 @@
 # TechnologyAssessment
-Restful Web Service for Technology Assessment - Back End
+Restful Web Service for Technology Assessment - Back End.
 The UML Class diagram can be found in /TechnologicalAssessmentUML
 
 ## Getting Started
@@ -25,7 +25,7 @@ To build the application quickly without re-compiling test classes, run the mave
 mvn clean install -DskipTests
 ```
 
-If you wish to run the application from the command line after installing maven enter the following in a command prompt while in the project folder:
+If you wish to run the application from the command line after installing maven enter the following in a command prompt while in the project folder, this will run the application on localhost:8080:
 
 ```
 mvn spring-boot:run
@@ -41,6 +41,12 @@ After installing SonarQube you can view pre-generated reports from the project f
 
 ```
 mvn sonar:sonar -Dsonar.analysis.mode=preview -Dsonar.issuesReport.html.enable=true
+```
+
+Or viewing the file:
+
+```
+SonarQubeReport.html
 ```
 
 If there are any issues with the above command, going to localhost:9000 after starting the SonarQube StartSonar.bat file and following the directions to add a project will generate a new report.
