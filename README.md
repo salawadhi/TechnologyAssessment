@@ -51,6 +51,8 @@ SonarQubeReport.html
 
 If there are any issues with the above command, going to localhost:9000 after starting the SonarQube StartSonar.bat file and following the directions to add a project will generate a new report.
 
+
+### Generating Program Output
 After running the program from the command line go to localhost:8080/api/get-discounted-receipt using any REST client you prefer, such as Postman.
 
 A sample request body looks like :
@@ -108,6 +110,21 @@ To run the unit tests for the application enter the following command at the roo
 ```
 mvn test
 ```
+
+(BEGIN Post-Deadline Edit)
+
+To view code coverage and mutation test reports please view the index.html file located at:
+
+```
+TechnologyAssessment/pit-reports/201902142327/
+```
+
+To generate code coverage and mutation test reports please enter the following command at the root of the project
+
+```
+mvn clean install org.pitest:pitest-maven:mutationCoverage
+```
+(END Post-Deadline Edit)
 
 ## Deployment
 The application can be deployed to a TomCat server by copying the WAR file from target/TechnologyAssessment-0.0.1-SNAPSHOT.war to the tomcat/webapps/ folder, and then running:
