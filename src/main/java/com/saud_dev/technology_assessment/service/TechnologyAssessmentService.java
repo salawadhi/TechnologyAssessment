@@ -85,7 +85,7 @@ public class TechnologyAssessmentService {
 
 	private double getDiscountedAmount(List<Item> items, Customer customer) {
 
-		double flatDiscount = (((int) getTotalAmount(items)) / 100) * 5d;
+		int flatDiscount = (((int) getTotalAmount(items)) / 100) * 5;
 
 		double percentDiscount = getOtherAmount(items) * customer.getDiscount();
 

@@ -21,7 +21,7 @@ public class CustomerFactory {
 		if(customerType.equalsIgnoreCase(Constants.EMPLOYEE)) {
 			return new Employee();
 		}
-		
+	
 		if(timeAsCustomer != null)
 			return new Customer(Double.parseDouble(timeAsCustomer));
 		return new Customer();
