@@ -124,6 +124,13 @@ To generate code coverage and mutation test reports please enter the following c
 ```
 mvn clean install org.pitest:pitest-maven:mutationCoverage
 ```
+
+Generated reports can be located at
+
+```
+TechnologyAssessment\target\pit-reports
+```
+
 (END Post-Deadline Edit)
 
 ## Deployment
